@@ -1,0 +1,38 @@
+Listt(
+children:[
+Button(Label: doctor,onPressed: Navigator.push(output1.html)),
+Button(Label: patient,onPressed: Navigator.push(output2.html)),
+Button(Label: admin,onPressed: Navigator.push(output3.html)),
+]
+)
+Listt(
+children:[
+Text("enter_your_information"),
+TextFormField(Label: doctor_gender, Controller: gender_controller),
+TextFormField(Label: doctor_age, Controller: age_controller),
+Text("gender" + gender_controller),
+Text("age" + age_controller),
+Button(Label: mohammed,),
+]
+)
+Listt(
+children:[
+Text("choose_your_role"),
+TextFormField(Label: patient_name, Controller: name_controller),
+TextFormField(Label: patient_phone, Controller: phone_controller),
+Text("name" + name_controller),
+Text("phone" + phone_controller),
+Button(Label: patient_result,),
+]
+)
+Listt(
+children:[
+Text("enter_your_information"),
+TextFormField(Label: admin_email, Controller: email_controller),
+TextFormField(Label: admin_password, Controller: password_controller),
+Text("email" + email_controller),
+Text("password" + password_controller),
+Button(Label: admin_result,),
+]
+)
+

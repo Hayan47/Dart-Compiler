@@ -1,0 +1,62 @@
+Program{listtss1=ListWedget{, listWedget='Listt'Button1=Button{Button= Button', onPressed='onPressed:', Navigator='Navigator.push', Label= Label:identifier1=Identifier{parameter='doctor'}
+identifier2=Identifier{parameter='output1.html'}
+
+Button2=Button{Button= Button', onPressed='onPressed:', Navigator='Navigator.push', Label= Label:identifier1=Identifier{parameter='patient'}
+identifier2=Identifier{parameter='output2.html'}
+
+Button3=Button{Button= Button', onPressed='onPressed:', Navigator='Navigator.push', Label= Label:identifier1=Identifier{parameter='admin'}
+identifier2=Identifier{parameter='output3.html'}
+
+}
+listtss2=ListWedget{, listWedget='Listt'Text1=Text{text='Text'identifier1=Identifier{parameter='enter_your_information'}
+
+Text2=Text{text='Text'identifier1=Identifier{parameter='gender'}
+identifier2=Identifier{parameter='gender_controller'}
+
+Text3=Text{text='Text'identifier1=Identifier{parameter='age'}
+identifier2=Identifier{parameter='age_controller'}
+
+TextFormFiled1=TextFormFiled{textFormField= TextFormField, Label= Label:identifier1=Identifier{parameter='doctor_gender'}
+identifier2=Identifier{parameter='gender_controller'}
+, controller=Controller:
+TextFormFiled2=TextFormFiled{textFormField= TextFormField, Label= Label:identifier1=Identifier{parameter='doctor_age'}
+identifier2=Identifier{parameter='age_controller'}
+, controller=Controller:
+Button1=Button{Button= Button', onPressed='null', Navigator='null', Label= Label:identifier1=Identifier{parameter='mohammed'}
+
+}
+listtss3=ListWedget{, listWedget='Listt'Text1=Text{text='Text'identifier1=Identifier{parameter='choose_your_role'}
+
+Text2=Text{text='Text'identifier1=Identifier{parameter='name'}
+identifier2=Identifier{parameter='name_controller'}
+
+Text3=Text{text='Text'identifier1=Identifier{parameter='phone'}
+identifier2=Identifier{parameter='phone_controller'}
+
+TextFormFiled1=TextFormFiled{textFormField= TextFormField, Label= Label:identifier1=Identifier{parameter='patient_name'}
+identifier2=Identifier{parameter='name_controller'}
+, controller=Controller:
+TextFormFiled2=TextFormFiled{textFormField= TextFormField, Label= Label:identifier1=Identifier{parameter='patient_phone'}
+identifier2=Identifier{parameter='phone_controller'}
+, controller=Controller:
+Button1=Button{Button= Button', onPressed='null', Navigator='null', Label= Label:identifier1=Identifier{parameter='patient_result'}
+
+}
+listtss4=ListWedget{, listWedget='Listt'Text1=Text{text='Text'identifier1=Identifier{parameter='enter_your_information'}
+
+Text2=Text{text='Text'identifier1=Identifier{parameter='email'}
+identifier2=Identifier{parameter='email_controller'}
+
+Text3=Text{text='Text'identifier1=Identifier{parameter='password'}
+identifier2=Identifier{parameter='password_controller'}
+
+TextFormFiled1=TextFormFiled{textFormField= TextFormField, Label= Label:identifier1=Identifier{parameter='admin_email'}
+identifier2=Identifier{parameter='email_controller'}
+, controller=Controller:
+TextFormFiled2=TextFormFiled{textFormField= TextFormField, Label= Label:identifier1=Identifier{parameter='admin_password'}
+identifier2=Identifier{parameter='password_controller'}
+, controller=Controller:
+Button1=Button{Button= Button', onPressed='null', Navigator='null', Label= Label:identifier1=Identifier{parameter='admin_result'}
+
+}
+}
